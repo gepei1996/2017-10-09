@@ -1,0 +1,224 @@
+*{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				text-decoration:none;
+				
+			}
+			.box{
+				width: 1920px;
+			}
+			/*头部*/
+			.header{
+				width:1300px;
+				margin: 0 auto;
+			}
+			.nav{
+				width: 1300px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.nav >img{
+				margin-top: 42px;
+				margin-bottom: 20px;
+			}
+			.nav >span{
+				background: #f6b5a5;
+				font-size: 14px;
+				padding: 10px 20px 10px 15px;
+				display: block;
+				margin-top: 57px;
+				margin-right: 10px;
+				margin-bottom: 20px;
+			}
+		
+			/*主体内容*/
+			.box_a{
+				width: 1920px;
+				height: 800px;
+				margin: 0 auto;
+				background: url(../img/9.png);
+				position: absolute;
+			}
+			
+			.logo{
+				width: 470px;
+				height: 580px;
+				background: white;
+				position: absolute;
+				top:110px;
+				bottom: 25px; 
+				left: 1160px;
+			}
+			.location{
+				width: 160px;
+				height: 42px;
+				position: absolute;
+				top: 20px;
+				left: 140px;
+			}
+			.location_a{
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+			.logcon{
+				width: 360px;
+				height: 480px;
+				margin: 90px auto;
+			}
+			.icon{
+				width: 75px;
+				height: 50px;
+				background: #c6c6c6;
+				display: block;
+			}
+			.icon_a{
+				background-image: url(../img/tu2.png); 
+				background-repeat: no-repeat;
+				background-position: 17px 6px;
+			}
+			.icon_b{
+				background-image: url(../img/tu3.png); 
+				background-repeat: no-repeat;
+				background-position: 22px 6px;
+			}
+			input{
+				width: 287px;
+				height: 48px;
+				outline: none;
+				border-left: none;
+				border: 1px solid #c6c6c6;
+				font-size: 26px;
+				color: #dfdfdf;
+				text-indent: 1.3em;
+			}
+			.logcon_a{
+				display: flex;
+				flex-direction: row;
+				margin-top: 30px;
+			}
+			.topa{
+				margin-top: 15px;
+			}
+			.loginbar{
+				width: 360px;
+				height: 50px;
+				background: #f24115;
+				margin-top: 30px;
+				cursor: pointer;
+				outline: none;
+				border:none;
+				
+			}
+			.loginbar a{
+				font-size: 26px;
+				text-align: center;
+				line-height: 50px;
+				color: white;
+			}
+			.tips a{
+				color: #999999;
+				font-size: 14px;
+				letter-spacing: 3px;
+			}
+			.tips p{
+				text-align: center;
+			}
+			.tips >p:first-child{
+				text-align: right;
+				margin-top: 12px;
+			}
+			.tips >p:first-child a{
+				color: #474747;
+				font-size: 12px;
+			}
+			.tips >p:nth-child(2){
+				margin-top: 10px;
+			}
+			.tips >p:nth-child(3){
+				margin-top: 35px;
+			}
+			.partner{
+				width: 200px;
+				margin: 0 auto;
+				margin-top: 20px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+			}
+			.footer{
+				width: 1920px;
+				height: 465px;
+				background: #f2f2f2;
+				position: absolute;
+				top: 915px;
+			}
+			.footer_a{
+				width: 1065px;
+				margin: 55px auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.footer_a li{
+				text-align: center;
+				margin-top: 5px;
+			}
+			.footer_a a{
+				color: #6c6c6c;
+				font-size: 14px;
+				font-weight: 600;
+			}
+			.footer_b{
+				width: 1920px;
+				height: 45px;
+				background: white;
+			}
+			.footer_b1{
+				width: 800px;
+				margin: 0 auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.footer_b1 span{
+				display: block;
+				height: 18px;
+				margin-top: 15px;
+				color: #b5b5b5;
+				font-size: 14px;
+				padding: 0 15px;
+				border-right: 1px solid #999999;
+				letter-spacing:2px;
+				cursor: pointer;
+				
+			}
+			.footer_b1 span:last-child{
+				border: none;
+			}
+			.footer_c{
+				width: 830px;
+				height: 42px;
+				margin: 55px auto;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+			.footer_c span{
+				display: block;
+				font-size: 12px;
+				color: #999999;
+				line-height: 60px;
+				letter-spacing:1px;
+			}
+			.footer_c span:nth-child(2){
+				display: block;
+				width: 36px;
+				height: 42px;
+				background-image: url(../img/e.png);
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
+				background-position: 0 0;
+			}
